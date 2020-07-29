@@ -322,6 +322,10 @@ button:hover{
     z-index: 99;
 }
 
+.fullColIcon1 img{
+    margin-right: 20px;
+}
+
 .fullColIcon1BGcol{
     width: 17%;
     height: 200px;
@@ -355,6 +359,18 @@ button:hover{
     margin-top: 0px;
 }
 
+/* .cards{
+    position: relative;
+}
+.cardLine{
+    width: 420px;
+    height: 420px;
+    border: 1px solid red;
+    position: absolute;
+    transform: rotate(45deg);
+    top: 100px;
+    left: 30%
+} */
 
 
 /* video */
