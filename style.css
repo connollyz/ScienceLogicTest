@@ -241,7 +241,7 @@ button:hover{
 /* whatToExpect */
 
 .whatToExpect{
-    background-image: url("http://sciencelogic.local/wp-content/uploads/2020/07/Blade5-6000.jpg");
+    background-image: url("assets/Blade5-6000.jpg");
     color: #fff;
     text-align: center;
 }
@@ -301,7 +301,7 @@ button:hover{
 }
 
 .background2{
-    background-image: url('http://sciencelogic.local/wp-content/uploads/2020/07/Blade7-3000.jpg');
+    background-image: url('assets//Blade7-3000.jpg');
 }
 
 /* info */
