@@ -341,12 +341,27 @@ button:hover{
     background-color:#3298d4;
     position: absolute;
     right: 0px;
-    z-index: -9;
+    
 }
+
+.fullColIcon2BGcolMobile{
+    width: 17%;
+    height: 200px;
+    background-color:#3298d4;
+    position: absolute;
+    right: 0px;
+    z-index: 9;
+    
+}
+
 
 .fullColIcon2{
     margin-left: 40px;
     z-index: 99;
+}
+
+.fullColIcon2 img{
+    z-index: 9;
 }
 
 .fullCallText1 h2{
@@ -547,9 +562,15 @@ footer{
         width: 80%;
         margin: 0 auto;
     }
-    .fullColIcon2BG{
-        display:none;
+    /* .fullColIcon2BG{
+        display: block !important;
+        z-index: 9 !important;
+        
     }
+
+    .fullColIcon2BGCol{
+        display:none;
+    } */
 
     .fullColIcon1{
         margin: 0px auto 30px;
