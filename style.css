@@ -241,7 +241,7 @@ button:hover{
 /* whatToExpect */
 
 .whatToExpect{
-    background-image: url("assets/Blade5-6000.jpg");
+    background-image: url("http://sciencelogic.local/wp-content/uploads/2020/07/Blade5-6000.jpg");
     color: #fff;
     text-align: center;
 }
@@ -258,6 +258,7 @@ button:hover{
 /* steps */
 .cards{
   margin-top: 60px;
+  position: relative;
 }
 .card{
     padding: 20px;
@@ -273,35 +274,38 @@ button:hover{
     border-radius: 50%;
     margin:0 auto;
     overflow: hidden;
+    z-index: 99;
+    position: relative;
 }
-.card1{
-    order: 1;
-}
+
 
 .card1 .cardIcon{
     background-color: #3298d4;
 }
-.card2{
-    order: 2;
-}
+
 
 .card2 .cardIcon{
     background-color: #27aa90;
 }
-.card3{
-    order: 3;
-}
+
 
 .card3 .cardIcon{
     background-color: #528749;
 }
 
-.card1,.card3{
-    margin-top: 200px;
+.cardLine{
+    width: 70%;
+    position: absolute;
+    top: 71px;
+    background-color: #f0f0f0;
+    opacity: 0.3;
+    height: 2px;
+    margin-left: 15%;
+    z-index: 9;
 }
 
 .background2{
-    background-image: url('assets//Blade7-3000.jpg');
+    background-image: url('http://sciencelogic.local/wp-content/uploads/2020/07/Blade7-3000.jpg');
 }
 
 /* info */
@@ -320,10 +324,6 @@ button:hover{
 .fullColIcon1{
     margin-right: 40px;
     z-index: 99;
-}
-
-.fullColIcon1 img{
-    margin-right: 20px;
 }
 
 .fullColIcon1BGcol{
@@ -359,19 +359,9 @@ button:hover{
     margin-top: 0px;
 }
 
-/* .cards{
-    position: relative;
+.fullColIcon1 img{
+    margin-right: 20px;
 }
-.cardLine{
-    width: 420px;
-    height: 420px;
-    border: 1px solid red;
-    position: absolute;
-    transform: rotate(45deg);
-    top: 100px;
-    left: 30%
-} */
-
 
 /* video */
 .videoContent , .video{
@@ -535,18 +525,18 @@ footer{
     }
 
     /* steps */
-    .card1{
-        order: 2;
+    .card{
+        display: flex;
     }
-    .card2{
-        order: 1;
-    }
-    .card3{
-        order: 3;
+    .cardText{
+        text-align: left;
+        margin-left: 30px;
     }
 
-    .card1,.card3{
-        margin-top: 0px;
+    .cardLine{
+        width: 2px;
+        height: 70%;
+        margin-left: 70px;
     }
     /* info */
     .infoContainer{
@@ -631,6 +621,21 @@ footer{
     }
     header{
         margin: 0px;
+    }
+}
+
+@media(max-width: 414px){
+     /* steps */
+    .card{
+        display: block;
+    }
+    .cardText{
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .cardLine{
+        display: none;
     }
 }
 
