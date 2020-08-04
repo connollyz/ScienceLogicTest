@@ -241,7 +241,7 @@ button:hover{
 /* whatToExpect */
 
 .whatToExpect{
-    background-image: url("http://sciencelogic.local/wp-content/uploads/2020/07/Blade5-6000.jpg");
+    background-image: url("assets/Blade5-6000.jpg");
     color: #fff;
     text-align: center;
 }
@@ -324,6 +324,9 @@ button:hover{
 .fullColIcon1{
     margin-right: 40px;
     z-index: 99;
+    background-image: url('assets/ServiceImage1.png');
+    background-size: cover;
+    background-position: center;
 }
 
 .fullColIcon1BGcol{
@@ -350,14 +353,19 @@ button:hover{
     background-color:#3298d4;
     position: absolute;
     right: 0px;
-    z-index: 9;
-    
+    z-index: 9;  
 }
 
 
 .fullColIcon2{
     margin-left: 40px;
     z-index: 99;
+      
+}
+.cardIcon2{
+    background-image: url('assets/serviceImage2.png');
+    background-size: cover;
+    background-position: center;
 }
 
 .fullColIcon2 img{
